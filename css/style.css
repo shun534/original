@@ -15,15 +15,16 @@ img {
 }
 
 .wrapper {
-    margin: 0 100px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 body {
-    max-width: 1000px;
     margin: 0 auto;
-    background-image: url(../img/index/background.png);
     background-size: cover;
+    background-color: #f4d9aa;
 }
+
 
 
 header {

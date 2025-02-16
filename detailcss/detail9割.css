@@ -6,45 +6,6 @@ css
 ----------------*/
 
 
-a {
-    text-decoration: none;
-}
-
-img {
-    width: 100%;
-}
-
-
-.wrapper {
-    margin: 0 50px;
-}
-
-body {
-    margin: 0 auto;
-    max-width: 1000px;
-    background-size: cover;
-    background-color: #f4d9aa;
-}
-
-
-
-
-header .list {
-    display: flex;
-    justify-content: flex-end;
-    margin: 50px auto;
-
-}
-
-header .list li {
-    list-style: none;
-    padding-right: 20px;
-}
-
-header .list a {
-    color: #4d3f37;
-}
-
 main .title {
     text-align: center;
     margin: 50px;
