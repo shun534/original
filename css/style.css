@@ -1,0 +1,278 @@
+/*----------------
+css
+作成日：12/17
+作成者：てらしゅん
+サイト名：オリジナル
+----------------*/
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+body {
+    margin: 0 auto;
+    background-size: cover;
+    background-color: #f4d9aa;
+    background-image: url(../img/index/background.png);
+}
+
+
+
+header {
+    width: 100%;
+}
+
+header .list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px auto;
+}
+
+header .list li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+header .list a {
+    color: #4d3f37;
+}
+
+header .genre ul {
+    display: none;
+}
+
+header .genre .genreitem:hover + ul {
+    display: block;
+}
+
+header .genre ul:hover {
+    display: block;
+}
+
+header .genre li:hover {
+    opacity: 0.5;
+}
+
+
+.firstview {
+    display: flex;  
+    justify-content: space-between;
+    height: 600px;
+    margin: 0 -100px;
+}
+
+
+
+main .img1 {
+    width: 80%;
+    height: 100%;
+}
+
+main .img1 img {
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .heading {
+    width: 30%;
+    font-size: 28px;
+    color: #4d3f37;
+
+}
+
+main .text  {
+    writing-mode: vertical-rl;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+main .saying {
+    position: relative;
+}
+
+main .saying .featherpic {
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(200px,0);
+    width: 100px;
+  }
+
+main .saying p {
+    text-align: center;
+    margin: 100px 0;
+}
+
+main .saying .walt {
+    margin-top: 150px
+}
+
+main .saying .img2 img {
+    border-radius: 50%;
+}
+
+main .saying .img3 img {
+    border-radius: 50%;
+}
+
+main .saying .img4 {
+    margin: 0 -100px;
+    height: 500px;
+
+}
+
+main .saying .img4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .saying .floating {
+    display: flex;
+}
+
+main .saying .floating .img2 {
+    width: 50%;
+}
+
+main .saying .floating .img2 .img2pos {
+    width: 320px;
+}
+
+main .saying .floating .img3 {
+    width: 50%;
+}
+
+main .saying .floating .img3 .img3pos {
+    width: 320px;
+    margin-left: 80px;
+    margin-top: 300px;
+}
+
+.contact {
+    background-color: #f8f6f1;
+    position: relative;
+}
+
+.contact .birdpic {
+    position: absolute;
+    top: 70px;
+    width: 100px;
+    margin-left: 50%;
+    transform: translate(-300px,0);
+}
+
+.contact .bookpic {
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    margin-left: 50%;
+    transform: translate(250px,0);
+}
+
+.contact h1 {
+    padding-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.contact p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.contact  .text {
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.contact .button {
+    margin-top: 25px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.contact .input {
+    text-align: center;
+    border-bottom: #0097b2 3px solid;
+}
+
+
+.contact .submit {
+    padding: 4px 20px;
+    background-color: #0097b2;
+    color: white;
+    border-radius: 30px;
+}
+
+.contact .submit:active {
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
+footer {
+    background-color: #db8156;
+}
+
+footer .logo {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+ 
+}
+
+footer .logo a {
+    color: #231f20;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+footer .footerlist {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+
+}
+
+footer .footerlist li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+footer .footerlist a {
+    color: #231f20;
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 60px;
+    color: #231f20;
+}
+
+footer p:last-child {
+    color: #ece6dc;
+}
